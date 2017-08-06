@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "6"
+  - "7"
+script:
+  - npm run test
+  - brunch b -p
+notifications:
+  email: false
