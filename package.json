@@ -2,9 +2,10 @@
   "name": "midipacks",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "client/index.coffee",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "brunch b -p",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/prashnts/midipacks/issues"
   },
-  "homepage": "https://github.com/prashnts/midipacks#readme"
+  "homepage": "https://github.com/prashnts/midipacks#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "brunch": "^2.10.10",
+    "chai": "^4.1.1",
+    "coffee-script-brunch": "^2.10.2",
+    "http-server": "^0.10.0",
+    "javascript-brunch": "^2.10.0",
+    "mocha": "^3.5.0",
+    "text-encoding": "^0.6.4"
+  }
 }
